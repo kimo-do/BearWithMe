@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #3A3A3A"></canvas>
-    <script src="Build/Test4.loader.js"></script>
+    <script src="Build/BearWithUs.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Test4.data",
-        frameworkUrl: "Build/Test4.framework.js",
-        codeUrl: "Build/Test4.wasm",
+        dataUrl: "Build/BearWithUs.data",
+        frameworkUrl: "Build/BearWithUs.framework.js",
+        codeUrl: "Build/BearWithUs.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Kimosabe",
         productName: "Okay Run",
